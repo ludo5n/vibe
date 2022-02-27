@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" media="all" href="style.css">
+    <!--[if gt IE 6]>
+        <link rel="stylesheet" href="ie.css">
+    <![endif]-->
+    <title>Document</title>
+</head>
+<body>
+    <div id="mobileMenu"></div>
+    <div id="wrapper">
+        <section id="headmenu" class="padded flex">
+            <a id="logo" href="">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <nav>
+                <a class="link" href="#wrapper">home</a>
+                <a class="link" href="#welcome">about</a>
+                <a class="link" href="#gallery">gallery</a>
+                <a class="link" href="#testimonials">testimonials</a>
+                <a class="link" href="#contact">contact</a>
+                <a class="link" href="#footer-nav">pages</a>
+            </nav>
+            <a id="burger" class="button"><span class="fas fa-bars"></span></a>
+        </section>
+        <header>
+            <section id="hero" class="text-center extra-padded">
+                <h1>HTML template for creative folks and design agencies</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem coronavirus ullam officia esse perspiciatis dolorem repudiandae.</p>
+                <p>
+                    <a href="" class="button">read more</a>
+                </p>
+            </section>
+        </header>
+       
+        <main>
+            <section id="welcome" class="padded flex flex-x3">
+                <article>
+                    <h2>Why choose us?</h2>
+                    <p><strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam voluptatibus sequi saepe ipsam</strong></p>
+                    <p class="text-small">
+                        Neque nisi maiores excepturi ad omnis, asperiores. Numquam quae autem et tempore fuga doloremque laudantium aspernatur?
+                    </p>
+                </article>
+                <article>
+                    <h2>What you get?</h2>
+                    <table class="text-small">
+                        <tbody>
+                            <tr>
+                                <td rowspan="2"><span class="fab fa-wordpress fa-2x text-rose"></span></td>
+                                <td><strong>COLORFUL & COMPACT</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Je ne sais plus ce que je dois écrire</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2"><span class="fas fa-cog fa-2x text-rose"></span></td>
+                                <td><strong>RAPIDE & PAS CHER</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Je ne sais plus ce que je dois écrire</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2"><span class="fas fa-paper-plane fa-2x text-rose"></span></td>
+                                <td><strong>BEAVIS & BUTTHEAD</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Je ne sais plus ce que je dois écrire</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article id="accordion">
+                    <div class="accordion-element">
+                        <h4><span class="fas fa-minus text-rose"></span>TITRE</h4>
+                        <p>texte qui s'affichera ou pas si je clique sur le petit symbole</p>
+                    </div>
+                    <div class="accordion-element">             
+                        <h4><span class="fas fa-plus text-rose"></span>TITRE</h4>
+                        <p>texte qui s'affichera ou pas si je clique sur le petit symbole</p>
+                    </div>
+                    <div class="accordion-element">    
+                        <h4><span class="fas fa-plus text-rose"></span>TITRE</h4>
+                        <p>texte qui s'affichera ou pas si je clique sur le petit symbole</p>
+                    </div>
+                </article>
+            </section>
+            <section id="gallery">
+                <div id="gallery-imgs" class="flex">
+                    <figure class="fig-video">
+                        <img src="./img/photo1.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-play fa-4x"></span>
+                        </div>
+                    </figure>
+                    <figure class="fig-image">
+                        <img src="./img/photo2.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-image fa-5x"></span>
+                        </div>
+                    </figure>
+                    <figure class="fig-audio">
+                        <img src="./img/photo3.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-music fa-5x"></span>
+                        </div>
+                    </figure>
+                    <figure class="fig-video">
+                        <img src="./img/photo4.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-play fa-5x"></span>
+                        </div>
+                    </figure>
+                     <figure class="fig-image">
+                        <img src="./img/photo4.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-image fa-5x"></span>
+                        </div>
+                    </figure>
+                    <figure class="fig-video">
+                        <img src="./img/photo3.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-play fa-5x"></span>
+                        </div>
+                    </figure>
+                    <figure class="fig-audio">
+                        <img src="./img/photo1.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-music fa-5x"></span>
+                        </div>
+                    </figure>
+                    <figure class="fig-image">
+                        <img src="./img/photo2.jpg" alt="">
+                        <div class="overlay">
+                            <span class="fas fa-image fa-5x"></span>
+                        </div>
+                    </figure>
+                </div>
+                <div id="gallery-nav" class="padded flex">
+                    <p id="gallery-filters">
+                        <a data-fig="all" class="active" href="">ALL</a>
+                        <a data-fig="image" href="">IMAGE</a>
+                        <a data-fig="audio" href="">AUDIO</a>
+                        <a data-fig="video" href="">VIDEO</a>
+                    </p>
+                    <a class="button btn-rose border-rose" href="">load more</a>
+                </div>
+            </section>
+            <section id="testimonials" class="padded ">
+                <h1 class="text-center">TEStimonials</h1>
+                <div class="title-separator"></div>
+                <div class="testimonial">
+                    <img src="./img/avatar.png">
+                    <blockquote>
+                        <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced. Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+                        <footer class="text-small"><strong>Aldous Huxley</strong>, Brave New World</footer>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <img src="./img/avatar.png">
+                    <blockquote>
+                        <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced. Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+                        <footer class="text-small"><strong>Aldous Huxley</strong>, Brave New World</footer>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <img src="./img/avatar.png">
+                    <blockquote>
+                        <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced. Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+                        <footer class="text-small"><strong>Aldous Huxley</strong>, Brave New World</footer>
+                    </blockquote>
+                </div>
+                <p class="text-center">
+                    <a href="" class="button border-rose text-rose">BECOME OUR PIGEON</a>
+                </p>
+            </section>
+            <section id="buy-now" class="extra-padded text-center">
+                <h1>new horizons await</h1>
+                <div class="title-separator"></div>
+                <p>
+                    Even the all-powerful Pointing has no control about the blind texts it is almost
+                    unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided.
+                </p>
+                <p>
+                    <a class="button border-rose" href="">Buy vibes on themeforest</a>
+                </p>
+            </section>
+            <section id="contact" class="padded">
+                <h1 class="text-center">CONTACT</h1>
+                <div class="title-separator"></div>
+                <form action="" class="flex flex-x2">
+                    <div>
+                        <label class="required">Your name</label>
+                        <input type="text">
+                        <label class="required">Your email</label>
+                        <input type="text">
+                        <label>Your phone</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label>Your subject</label>
+                        <input type="text">
+                        <label class="required">Your message</label>
+                        <textarea></textarea>
+                        <button type="submit" class="button btn-rose border-rose">send</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section id="footer-info" class="padded flex flex-x3">
+                <div class="text-small">
+                    <h3>About vibes</h3>
+                    <div class="title-separator"></div>
+                    <p>
+                    VIBES is an ideal theme for creative folks or
+                    design agencies. <strong>Ease of use and top-notch 
+                    web design techniques</strong> are wrapped with 
+                    several gorgeous color schemes.
+                    </p>
+                    <p>
+                    You can buy this responsive WordPress theme
+                    on <a href="" class="text-rose">ThemeForest</a>.
+                    </p>
+                </div>
+                <div class="text-small">
+                    <h3>newsletter</h3>
+                    <div class="title-separator"></div>
+                    <p><strong>VIBES</strong> contains fully working 
+                    <strong>MailChimp</strong> subscribe form. 
+                    <form action="" class="">
+                    
+                        <input type="email" placeholder="Your Email Address">
+                    
+                        <button type="submit" class="button border-rose">Subscribe</button>
+                    
+                    </form>
+                </div>
+                <div class="text-small">
+                    <h3>twitter feed</h3>
+                    <div class="title-separator"></div>
+                    <p>
+                        <span class="fas fa-square fa-spin"></span>
+                        <span class="fas fa-square fa-spin"></span>
+                        <span class="fas fa-square fa-spin"></span>
+                        <span class="fas fa-square fa-spin"></span>
+                        <span class="fas fa-square fa-spin"></span>
+                    </p>
+                </div>
+            
+            </section>
+            <section id="footer-nav" class="padded flex flex-x2">
+                <p class="text-small">
+                    Buy this theme on ThemeForest.net
+                </p>
+                <p class="text-small">
+                    <a class="link" href="">Home</a>
+                    <a class="link" href="">Elements</a>
+                    <a class="link" href="">Documentation</a>
+                </p>
+         
+            </section>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+    //lorsque le document est entièrement chargé par le navigateur
+        $(document).ready(function(){
+            //click sur le titre d'un morceau de l'accordion
+            $(".accordion-element h4").on("click", function(){
+                //si le span dans le titre est un symbole +
+                if($(this).find("span").hasClass("fa-plus")){ 
+                    //les symboles -  se changent en +
+                    $(".accordion-element h4").find("span.fa-minus").removeClass("fa-minus").addClass("fa-plus")
+                    //les paragraphes affichés se cachent en slidant
+                    $(".accordion-element h4").siblings("p").slideUp(400)
+                    //le symbole du titre cliqué se change en -
+                    $(this).find("span").addClass("fa-minus").removeClass("fa-plus")
+                    //le paragraphe proche du titre cliqué se révèle
+                    $(this).siblings("p").slideDown(400)
+                }
+                
+            })
+            //click sur un des liens du menu de la galerie (filtres des images)
+            $("#gallery-filters a").on("click", function(e){
+                //on empèche l'évènement originel de ces liens de s'exécuter
+                e.preventDefault()
+                //on supprime la classe active du lien précédemment actif
+                $("#gallery-filters a").removeClass("active")
+                //on ajoute la classe active à celui qui a été choisi
+                $(this).addClass("active")
+                //on récupère le data attribute "fig" du lien cliqué
+                let datafig = $(this).data("fig")
+                //si ce "fig" n'est pas "all"
+                if(datafig !== "all"){
+                    //on cache toutes les images, pour un moment
+                    $("#gallery-imgs figure").hide()
+                    //on affiche ensuite seulement les figure qui portent la classe correspondante au "fig"
+                    $("#gallery-imgs figure.fig-"+datafig).show()
+                }
+                else{//sinon "all", donc toutes les images s'affichent
+                    $("#gallery-imgs figure").show()
+                }
+                //BONUS : on fait scroller automatiquement la page jusqu'en haut de la galerie
+                $('html').scrollTop($("#gallery").offset().top-$("#headmenu").height())
+                
+            })
+            //lorsqu'on scrolle avec la souris, le doigt ou le bouton milieu enfoncé
+            $(window).on("scroll", function(){
+                //on stocke la position du bord haut de la page 
+                let posWindow = $("html").scrollTop()
+                //si le bord haut du wrapper est "au dessus" de celui de la page (on vient de scroller)
+                if(posWindow > $("#wrapper").position().top){
+                    //on ajoute la classe minify au menu du header, ce qui l'anime
+                    $("#headmenu").addClass("minify")
+                }
+                else{//sinon, on l'enlève
+                    $("#headmenu").removeClass("minify")
+                }
+            })
+            //fonction permettant de scroller automatiquement à la partie de la page pointée par un lien
+            function smoothScroll(event, anchor){
+                event.preventDefault()
+                let target = anchor.attr("href")
+                let offset = $("section#headmenu").height()
+                $('html').scrollTop($(target).offset().top-offset)
+            }
+            //on utilise la fonction ci-dessus lorsqu'on clique sur un lien du menu du site
+            $('nav a.link').on("click", function(event){
+                smoothScroll(event, $(this))
+            })
+            //click sur le logo burger du menu
+            $("#burger").on("click", function(){
+                //on copie la nav du menu principal
+                let nav = $("#headmenu nav").clone()
+                //si le burger a le symbole "trois barres"
+                if($(this).find("span").hasClass("fa-bars")){
+                    //on anime le menu mobile et on lui ajoute la nav copiée
+                    $("#mobileMenu").addClass("animate").html(nav)  
+                    //on réactive l'évènement clic sur les liens de cette nav 
+                    //(puisqu'ils n'étaient pas dans le DOM lorsque le navigateur a interprété la page
+                    $('nav a.link').on("click", function(event){
+                        smoothScroll(event, $(this))
+                    })
+                }
+                else{
+                    //sinon, on revient à l'état initial
+                    $("#mobileMenu").html("").removeClass("animate")
+                    
+                }
+                //on bascule le symbole du burger de "trois barres" à "croix"
+                $(this).find("span").toggleClass("fa-times").toggleClass("fa-bars")
+            })
+        })
+    </script>
+</body>
+</html>
